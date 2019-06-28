@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es2015", "dom", "es2017"],
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "types": [
+      "node",
+    ],
+    "baseUrl": ".",
+    "paths": {
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+  ]
+}
